@@ -100,6 +100,9 @@ FROM `x-cycling-456011-f6.Uber_Analysis.trip_details`
 GROUP BY trip_date
 ORDER BY trip_date;
 
+
+## Details
+  
 -- 13. Trip Count by Vehicle Type
 SELECT 
   vehicle,
